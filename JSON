@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "name": "Smartphone A",
+    "category": "Electronics",
+    "price": 499,
+    "availability": "In Stock",
+    "images": [
+      "https://via.placeholder.com/200?text=Smartphone+1+Image1",
+      "https://via.placeholder.com/200?text=Smartphone+1+Image2"
+    ],
+    "reviews": [
+      { "user": "John", "rating": 4, "comment": "Great phone for the price!" },
+      { "user": "Jane", "rating": 5, "comment": "Excellent features and speed!" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Smartphone B",
+    "category": "Electronics",
+    "price": 699,
+    "availability": "Out of Stock",
+    "images": [
+      "https://via.placeholder.com/200?text=Smartphone+2+Image1"
+    ],
+    "reviews": [
+      { "user": "Sam", "rating": 3, "comment": "Decent, but could be cheaper." }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Smartphone C",
+    "category": "Electronics",
+    "price": 899,
+    "availability": "In Stock",
+    "images": [
+      "https://via.placeholder.com/200?text=Smartphone+3+Image1"
+    ],
+    "reviews": []
+  }
+]

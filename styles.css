@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+    .card {
+        border-radius: 8px;
+    }
+
+    .input-group {
+        max-width: 100%;
+    }
+
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

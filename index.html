@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <!-- Bootstrap CSS for styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .card-img-top {
+            border-radius: 8px 8px 0 0;
+        }
+
+        .mb-4 {
+            margin-bottom: 16px;
+        }
+
+        .search-bar {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container my-5">
+        <h2 class="text-center">Product List</h2>
+
+        <!-- Search Input -->
+        <div class="search-bar">
+            <input type="text" id="searchInput" class="form-control" placeholder="Search for products by name...">
+        </div>
+
+        <!-- Sort By Dropdown -->
+        <div class="mb-4">
+            <label for="sortSelect">Sort By:</label>
+            <select id="sortSelect" class="form-select">
+                <option value="name">Name</option>
+                <option value="price">Price</option>
+            </select>
+        </div>
+
+        <!-- Product Container -->
+        <div class="row" id="productContainer">
+            <!-- Product Cards will be rendered here -->
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
